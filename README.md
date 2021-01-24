@@ -36,4 +36,6 @@ http://localhost/ci-hmvc-rest-api-jwt/index.php/api/v1/profile (get method http)
 	"Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJlbWFpbCI6Im1hcmtAZ21haWwuY29tIiwiZnVsbG5hbWUiOiJNYXJrIn0.4mTzrVuTJzyXKUij1gu_yhOlyoppJPOb-gAEfVJGtlw"
 }
 
+doc for API CI JWT
+https://github.com/chanthavong/ci-hmvc-rest-api-jwt
 
