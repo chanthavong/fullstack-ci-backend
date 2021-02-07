@@ -19,6 +19,15 @@ class Doc extends REST_Controller {
 	public function index_get()
 	{
 
+		$this->data['count_all'] = $this->docs->count_all();
+
+		$search = $this->get('search');
+		
+		if($search) {
+			$this->db->like('title', $search);
+			$this->db->or_like('description', $search);
+		}
+
 		$limit = $this->get('limit') ?? 10;
 		$offset = $this->get('offset') ?? 0;
 		$this->docs->limit($limit,$offset);
