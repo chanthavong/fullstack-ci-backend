@@ -39,3 +39,6 @@ http://localhost/ci-hmvc-rest-api-jwt/index.php/api/v1/profile (get method http)
 doc for API CI JWT
 https://github.com/chanthavong/ci-hmvc-rest-api-jwt
 
+
+#front end web Nuxtjs
+https://github.com/chanthavong/fullstack-nuxtjs-fronend
